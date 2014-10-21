@@ -1,0 +1,348 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-before: 0;
+  -webkit-padding-after: 0;
+  -webkit-padding-start: 0;
+  -webkit-padding-end: 0; }
+
+ul, ol, dl {
+  list-style-type: none; }
+
+body {
+  font-family: "sinkin", sans-serif; }
+
+section {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4em 0; }
+  section:after {
+    content: "";
+    display: table;
+    clear: both; }
+  section h1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    font-family: "economica", sans-serif;
+    color: #00a99d;
+    margin: 2em 0 1em 0;
+    font-size: 2.5em; }
+    section h1:last-child {
+      margin-right: 0; }
+
+#landing {
+  width: 100%;
+  background-image: url(../img/landing-bg.png);
+  background-size: cover;
+  padding: 4em 2em;
+  color: white;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  font-family: "economica", sans-serif;
+  text-transform: uppercase; }
+  #landing:last-child {
+    margin-right: 0; }
+  #landing header > .logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 18.96686%;
+    margin-top: .8em; }
+    #landing header > .logo:last-child {
+      margin-right: 0; }
+  #landing header > .headline {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%;
+    text-align: center;
+    font-size: 1.7em;
+    margin-top: .25em; }
+    #landing header > .headline:last-child {
+      margin-right: 0; }
+  #landing header .when {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 18.96686%;
+    padding-top: 1.1em;
+    text-align: right;
+    font-size: 1.25em; }
+    #landing header .when:last-child {
+      margin-right: 0; }
+  #landing #bambuser, #landing img.placeholder {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 57.35098%;
+    height: 482px;
+    margin-top: 4em; }
+    #landing #bambuser:last-child, #landing img.placeholder:last-child {
+      margin-right: 0; }
+  #landing img.placeholder {
+    height: 451px;
+    border-radius: 4px; }
+  #landing #twitter {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    margin-right: 0;
+    height: 450px;
+    margin-top: 4em; }
+    #landing #twitter:last-child {
+      margin-right: 0; }
+  #landing #register {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    padding-top: 4em; }
+    #landing #register:last-child {
+      margin-right: 0; }
+    #landing #register h1 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      font-size: 1.5em;
+      padding-top: .25em; }
+      #landing #register h1:last-child {
+        margin-right: 0; }
+    #landing #register input {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 12.996%;
+      font-family: "sinkin", sans-serif;
+      text-transform: uppercase;
+      font-size: .75em;
+      padding: .75em 1.25em;
+      border-radius: 4px; }
+      #landing #register input:last-child {
+        margin-right: 0; }
+      #landing #register input[type=submit] {
+        background: #00a99d;
+        color: white;
+        font-family: "sinkin-bold"; }
+
+#speakers {
+  padding-top: 0; }
+  #speakers ul {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    #speakers ul:last-child {
+      margin-right: 0; }
+    #speakers ul li {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-bottom: 1em; }
+      #speakers ul li:last-child {
+        margin-right: 0; }
+      #speakers ul li:nth-child(2n) {
+        margin-right: 0; }
+      #speakers ul li:nth-child(2n+1) {
+        clear: left; }
+      #speakers ul li img {
+        float: left;
+        display: block;
+        margin-right: 4.82916%;
+        width: 30.11389%; }
+        #speakers ul li img:last-child {
+          margin-right: 0; }
+      #speakers ul li h2 {
+        font-family: "sinkin-semi";
+        text-transform: uppercase;
+        font-size: 1.25em;
+        line-height: 1.5em; }
+      #speakers ul li h3 {
+        font-size: 1em; }
+
+#talks {
+  padding-top: 0; }
+
+#talks h1 {
+  margin: 0 0 1em 0; }
+
+#talks ul li {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-bottom: 1em; }
+  #talks ul li:last-child {
+    margin-right: 0; }
+  #talks ul li .time {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 14.70196%;
+    background: #00a99d;
+    color: white;
+    text-align: center;
+    font-family: "sinkin-bold";
+    padding: .75em; }
+    #talks ul li .time:last-child {
+      margin-right: 0; }
+  #talks ul li .information {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%; }
+    #talks ul li .information:last-child {
+      margin-right: 0; }
+    #talks ul li .information .name {
+      font-family: "sinkin-semi";
+      color: #00a99d; }
+
+#footer {
+  width: 100%;
+  min-width: 100%;
+  padding-top: 0;
+  background-image: url(../img/landing-bg.png);
+  background-size: cover; }
+  #footer .wrapper {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto; }
+    #footer .wrapper:after {
+      content: "";
+      display: table;
+      clear: both; }
+  #footer h1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    font-size: 2em;
+    padding-top: 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase; }
+    #footer h1:last-child {
+      margin-right: 0; }
+  #footer input {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 12.996%;
+    width: 18.1%;
+    font-family: "sinkin", sans-serif;
+    text-transform: uppercase;
+    font-size: .75em;
+    padding: .75em 1.25em;
+    border-radius: 4px; }
+    #footer input:last-child {
+      margin-right: 0; }
+    #footer input[type=submit] {
+      background: #00a99d;
+      color: white;
+      font-family: "sinkin-bold"; }
+
+#rebel {
+  text-align: center;
+  padding: 2em 0; }
+  #rebel h2 {
+    color: #5A326B;
+    font-size: 1em;
+    font-family: "sinkin-semi"; }
+  #rebel img {
+    height: 5em; }
+
+@media screen and (max-width: 1165px) {
+  section {
+    padding: 2em; }
+    section h1 {
+      margin: 1em 0; }
+
+  #landing {
+    padding: 2em 0; }
+    #landing header > .logo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      margin-left: 25.58941%; }
+      #landing header > .logo:last-child {
+        margin-right: 0; }
+      #landing header > .logo img {
+        display: block;
+        margin: 0 auto; }
+    #landing header > .headline {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      margin-left: 0%;
+      font-size: 1.25em;
+      margin-top: 1em; }
+      #landing header > .headline:last-child {
+        margin-right: 0; }
+    #landing header > .when {
+      display: none; }
+
+  #bambuser, #landing img.placeholder {
+    width: 90vw !important;
+    margin-left: 5vw;
+    height: 60vw !important; }
+
+  #twitter {
+    display: none !important; }
+
+  #register h1 {
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 1em; }
+  #register input {
+    width: 90vw !important;
+    margin-left: 5vw;
+    margin-bottom: 1em; }
+
+  #speakers ul li {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    #speakers ul li:last-child {
+      margin-right: 0; }
+
+  #talks ul li .time {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    #talks ul li .time:last-child {
+      margin-right: 0; }
+  #talks ul li .information {
+    margin-top: .5em;
+    margin-bottom: 1em; }
+
+  #footer input {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-bottom: 1em; }
+    #footer input:last-child {
+      margin-right: 0; } }
