@@ -70,7 +70,7 @@ section {
   #landing header > .headline {
     float: left;
     display: block;
-    margin-right: 2.35765%;
+    margin-right: 0;
     width: 57.35098%;
     text-align: center;
     font-size: 1.7em;
@@ -87,18 +87,20 @@ section {
     font-size: 1.25em; }
     #landing header .when:last-child {
       margin-right: 0; }
-  #landing #bambuser, #landing img.placeholder {
+  #landing #bambuser, #landing .placeholder-image {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 57.35098%;
     height: 482px;
     margin-top: 4em; }
-    #landing #bambuser:last-child, #landing img.placeholder:last-child {
+    #landing #bambuser:last-child, #landing .placeholder-image:last-child {
       margin-right: 0; }
-  #landing img.placeholder {
+  #landing .placeholder-image {
     height: 451px;
-    border-radius: 4px; }
+    border-radius: 4px;
+    background-image: url("../img/placeholder.png");
+    background-size: cover; }
   #landing #twitter {
     float: left;
     display: block;
@@ -302,7 +304,7 @@ section {
     #landing header > .when {
       display: none; }
 
-  #bambuser, #landing img.placeholder {
+  #bambuser, #landing .placeholder-image {
     width: 90vw !important;
     margin-left: 5vw;
     height: 60vw !important; }
