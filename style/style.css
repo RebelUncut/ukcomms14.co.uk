@@ -348,3 +348,7 @@ section {
     margin-bottom: 1em; }
     #footer input:last-child {
       margin-right: 0; } }
+
+.thanks {
+  height: 100vh !important;
+}
